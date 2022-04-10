@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'ephemeral-linux' }
+    agent any
     options {
         disableConcurrentBuilds()
     }
